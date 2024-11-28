@@ -14,7 +14,7 @@
       }
     ],
     "assets": {
-      "host01": [{ "file": "app2/**/*.*", "target": "/app2" }]
+      "host01": [{ "file": "app2/*.*", "target": "/app2" }]
     },
     "finish": {
       "text": "finish.md"
