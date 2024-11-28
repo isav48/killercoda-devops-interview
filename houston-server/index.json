@@ -14,7 +14,10 @@
       }
     ],
     "assets": {
-      "host01": [{ "file": "app2/*", "target": "/" }]
+      "host01": [
+        { "file": "app2/*", "target": "/" },
+        { "file": "bad_log.py", "target": "/opt", "chmod": "+x" }
+      ]
     },
     "finish": {
       "text": "finish.md"
