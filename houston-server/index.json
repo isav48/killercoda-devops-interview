@@ -1,0 +1,26 @@
+{
+  "title": "Houston, we have a problem",
+  "description": "Upload files as assets to a specific location",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "steps": [
+      {
+        "title": "Create an empty file",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "assets": {
+      "host01": [{ "file": "app2/**/*.*", "target": "/app2" }]
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
