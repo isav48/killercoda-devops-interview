@@ -1,1 +1,1 @@
-/bad_log.py
+/opt/bad_log.py
