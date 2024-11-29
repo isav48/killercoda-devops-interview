@@ -1,2 +1,1 @@
-cd /app2 && docker-compose up -d
-nohup /bad_log.py &
+/bad_log.py
