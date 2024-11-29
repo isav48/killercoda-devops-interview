@@ -1,6 +1,5 @@
 {
   "title": "Houston, we have a problem",
-  "description": "Upload files as assets to a specific location",
   "details": {
     "intro": {
       "text": "intro.md",
@@ -8,9 +7,14 @@
     },
     "steps": [
       {
-        "title": "Create an empty file",
+        "title": "What is writing to this log file?",
         "text": "step1/text.md",
         "verify": "step1/verify.sh"
+      },
+      {
+        "title": "What is writing to this log file?",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
       }
     ],
     "assets": {
