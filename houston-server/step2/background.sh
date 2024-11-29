@@ -1,1 +1,2 @@
-/opt/bad_log.py
+sleep 3
+echo done > /tmp/background2
