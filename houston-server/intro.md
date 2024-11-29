@@ -1,1 +1,1 @@
-Learn some basic commands to work with files on a Linux system
+This is couple of challenges to test your knowledge of Linux.
