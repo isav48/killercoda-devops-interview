@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-status=`curl localhost:3101/ready`
+status=`curl localhost:3100/ready`
 
 if [ ${status} == "ready" ]; then
     exit 0
