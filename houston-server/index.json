@@ -14,6 +14,7 @@
       {
         "title": "What is writing to this log file?",
         "text": "step2/text.md",
+        "background": "step2/background.sh",
         "verify": "step2/verify.sh"
       }
     ],
