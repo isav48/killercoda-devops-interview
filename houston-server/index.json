@@ -21,7 +21,8 @@
     "assets": {
       "host01": [
         { "file": "app2/*", "target": "/" },
-        { "file": "bad_log.py", "target": "/opt", "chmod": "+x" }
+        { "file": "bad_log.py", "target": "/opt", "chmod": "+x" },
+        { "file": "bad-log.service", "target": "/etc/systemd/system/", "chmod": "644" }
       ]
     },
     "finish": {
