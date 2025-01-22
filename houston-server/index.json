@@ -14,12 +14,12 @@
       {
         "title": "Wake up, Loki...",
         "text": "step2/text.md",
-        "background": "step2/background.sh",
         "verify": "step2/verify.sh"
       },
       {
         "title": "The X File",
         "text": "step3/text.md",
+        "background": "step3/background.sh",
         "verify": "step3/verify.sh"
       }
     ],
