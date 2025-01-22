@@ -4,7 +4,7 @@ log_file="/var/log/bad.log"
 
 if [ -f "$log_file" ]; then
     current_size=$(stat -c %s "$log_file")
-    sleep 0.5
+    sleep 5
     new_size=$(stat -c %s "$log_file")
 
     if [ "$current_size" -eq "$new_size" ]; then
