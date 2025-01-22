@@ -1,4 +1,6 @@
-Description: There's a "dockerized" Grafana web application in the `/app2` directory.
-Run a Docker compose so you get a web app on port `:3100` and can curl to it.
+У разработчиков внезапно перестал работать сервис для агрегации логов Grafana Loki расположенный в директории `/app2`.
+Необходимо разобраться и запустить docker compose с этим приложением.
 
-Test: `curl localhost:3100/ready`{{exec}} returns Hello World! from a running container.
+Как проверить что все работает: `curl localhost:3100/ready`{{exec}} вернет `ready`! 
+
+

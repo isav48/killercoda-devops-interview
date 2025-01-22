@@ -12,10 +12,15 @@
         "verify": "step1/verify.sh"
       },
       {
-        "title": "What is writing to this log file?",
+        "title": "Wake up, Loki...",
         "text": "step2/text.md",
         "background": "step2/background.sh",
         "verify": "step2/verify.sh"
+      },
+      {
+        "title": "The X File",
+        "text": "step3/text.md",
+        "verify": "step3/verify.sh"
       }
     ],
     "assets": {
